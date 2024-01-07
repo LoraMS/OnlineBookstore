@@ -1,0 +1,16 @@
+.event-title{
+    color: darkseagreen;
+}
+
+.events-img{
+    width: 100%;
+    height: 150px;
+}
+
+a.category{
+    color: darkseagreen;
+  }
+  
+a.category:hover{
+   color: olivedrab;
+  }

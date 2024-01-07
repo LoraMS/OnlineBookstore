@@ -1,0 +1,39 @@
+.slider {
+    position: relative;
+    text-align: right;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.slider img{
+    max-width: 100%;
+}
+
+.title {
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    font-size: 2.2em;
+    font-weight: bold;
+    padding-bottom: 20px;
+    background:linear-gradient(rgb(255, 255, 255),rgb(255, 255, 255)) bottom no-repeat;
+    background-size:50% 3px;
+}
+
+.subtitle{
+    color: white;
+    position: absolute;
+    top: 55%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    font-size: 1.4em;
+}
+
+a.btn{
+    background-color: darkseagreen;
+}
+
+a.btn:hover{
+    background-color: olivedrab;
+}

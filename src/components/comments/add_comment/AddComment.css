@@ -1,0 +1,11 @@
+input.review-btn {
+    background-color: darkseagreen;
+  }
+  
+input.review-btn:hover {
+    background-color: olivedrab;
+  }
+
+input[type=submit].review-btn {
+    margin-left: 0;
+}

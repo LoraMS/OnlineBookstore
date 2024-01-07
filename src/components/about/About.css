@@ -1,0 +1,26 @@
+dt {
+    float: left;
+    width: 30%;
+    padding: .25em;
+    clear: left;
+}
+
+dd {
+    float: left;
+    width: 60%;
+    padding: .25em 0;
+}
+
+dl:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.map {
+    margin-top: 4em;
+}
+
+.about-title{
+    color: darkseagreen;
+}

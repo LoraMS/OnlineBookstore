@@ -1,0 +1,21 @@
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-item.show .nav-link.active{
+    background-color: #eee;
+    color: darkseagreen;
+}
+.show-img{
+    max-width: 100%;
+    height: 300px;
+}
+
+.price-show{
+    color: green;
+    font-weight: bold;
+}
+
+a.category{
+    color: darkseagreen;
+  }
+  
+a.category:hover{
+    color: olivedrab;
+  }

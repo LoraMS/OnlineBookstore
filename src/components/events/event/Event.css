@@ -1,0 +1,12 @@
+.event-img{
+    max-width: 100%;
+    height: 300px;
+}
+
+a.category{
+    color: darkseagreen;
+  }
+  
+a.category:hover{
+   color: olivedrab;
+  }

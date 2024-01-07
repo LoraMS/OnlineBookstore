@@ -1,0 +1,35 @@
+.card {
+  /* height: 480px; */
+  margin-right: 20px;
+}
+
+.card .card-img-top {
+  height: 225px;
+  width: 100%;
+  display: block;
+}
+
+a.btn{
+  background-color: darkseagreen;
+}
+
+a.btn:hover{
+  background-color: olivedrab;
+}
+
+.page-title{
+  color: darkseagreen;
+}
+
+.card-text{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.price{
+  color: green;
+  font-weight: bold;
+}
+
+.added{
+  transition: all 300ms ease-in;
+}
