@@ -72,10 +72,10 @@ The Web Application consists of the following sections:
  * can delete user
  
 ## Live demo
-* [Preview](https://book-store-40036.herokuapp.com)
+* [Preview](https://onlinebookstore-n159.onrender.com)
  
 ## Source code
-* [GitHub](https://github.com/LoraMS/ReactJS/tree/master/OnlineBookstore)
+* [GitHub](https://github.com/LoraMS/OnlineBookstore)
  
 ## Setup
  
