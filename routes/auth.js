@@ -6,7 +6,7 @@ const express = require('express');
 const jwt = require('jsonwebtoken');
 const validator = require('validator');
 const router = express.Router();
-const User = require("../models/user");
+const User = require("./../models/User.js");
 const Event = require("./../models/Event.js");
 
 function validateRegisterForm (payload) {
