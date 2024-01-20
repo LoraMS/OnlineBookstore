@@ -28,6 +28,7 @@ const mongoose = require('mongoose');
 mongoose.Promise = require('bluebird');
 
  mongoose.connect(process.env.MONGODB_URI || 'mongodb://Admin:admin1@bookstore-shard-00-00.dd7jg.mongodb.net:27017,bookstore-shard-00-01.dd7jg.mongodb.net:27017,bookstore-shard-00-02.dd7jg.mongodb.net:27017/bookstore?ssl=true&replicaSet=atlas-104jno-shard-0&authSource=admin&retryWrites=true&w=majority', {promiseLibrary: require('bluebird') })
+ //mongoose.connect(process.env.MONGODB_URI || 'mongodb://Admin:admin1@bookstore-shard-00-00.dd7jg.mongodb.net:27017,bookstore-shard-00-01.dd7jg.mongodb.net:27017,bookstore-shard-00-02.dd7jg.mongodb.net:27017/bookstore?ssl=true&replicaSet=atlas-104jno-shard-0&authSource=admin&retryWrites=true&w=majority', { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true, useFindAndModify: true })
   .then(() => console.log('Connection succesful!'))
   .catch((err) => console.log(err));
 
